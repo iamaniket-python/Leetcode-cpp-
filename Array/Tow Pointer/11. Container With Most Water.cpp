@@ -1,7 +1,6 @@
-class Solution {
-public:
-    int maxArea(vector<int>& height) {
-   
+#include<iostream>
+#include<vector>
+uisng namespace std;
         int left =0;
         int right =height.size() -1;
         int maxarea=0;
